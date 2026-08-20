@@ -1,0 +1,25 @@
+input_dim: 4096  # 1024 bp * 4 channels
+latent_dim: 128  # Much smaller than v1 (1792)
+dropout: 0.3
+
+# Training
+batch_size: 128
+epochs: 30
+lr: 1e-3
+lambda_contrastive: 0.1
+
+# Data
+n_sequences: 50000
+window_size: 1024
+n_patterns: 5  # Number of known patterns in synthetic data
+
+# Model architecture
+encoder:
+  - [4096, 2048, ReLU, Dropout]
+  - [2048, 512, ReLU, Dropout]
+  - [512, 128, Linear]
+
+decoder:
+  - [128, 512, ReLU, Dropout]
+  - [512, 2048, ReLU, Dropout]
+  - [2048, 4096, Sigmoid]
