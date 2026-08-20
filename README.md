@@ -70,7 +70,6 @@ Early experimental phase. Phase 1 synthetic data is the current focus.
 This project is licensed under the [MIT License](./LICENSE).
 
 <!-- TAGNET README FOOTER — start -->
----
 
 <div align="center">
 
