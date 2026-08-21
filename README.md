@@ -2,9 +2,8 @@
 <div align="center">
 
 [![License](https://img.shields.io/github/license/e404-tagnet/sim-AE?color=313244&labelColor=11111b&label=License&style=flat-square)](https://github.com/e404-tagnet/sim-AE/blob/main/LICENSE)
-[![Status](https://img.shields.io/badge/Status-experimental-fab387?labelColor=11111b&style=flat-square)](https://github.com/e404-tagnet/sim-AE/pulse)
+[![Status](https://img.shields.io/badge/Status-stable-a6e3a1?labelColor=11111b&style=flat-square)](https://github.com/e404-tagnet/sim-AE/pulse)
 [![Version](https://img.shields.io/github/v/release/e404-tagnet/sim-AE?color=313244&labelColor=11111b&label=Version&style=flat-square)](https://github.com/e404-tagnet/sim-AE/releases)
-[![Language](https://img.shields.io/badge/Language-Python-f9e2af?labelColor=11111b&style=flat-square&logo=python&logoColor=f9e2af)](https://www.python.org)
 [![Repo](https://img.shields.io/badge/Repo-sim-AE-94e2d5?labelColor=11111b&style=flat-square&logo=github&logoColor=94e2d5)](https://github.com/e404-tagnet/sim-AE)
 [![Tagnet](https://img.shields.io/badge/By-Tagnet-89dceb?labelColor=11111b&style=flat-square&logo=tag&logoColor=89dceb)](https://tagnet.dev)
 
@@ -63,7 +62,6 @@ Input (4096d) → Encoder → Latent (128d) → Decoder → Reconstruction
 ## Status
 
 Early experimental phase. Phase 1 synthetic data is the current focus.
-
 
 ## License
 
